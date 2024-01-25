@@ -1,0 +1,68 @@
+body {
+	background-image: url("books.jpeg");
+	background-color: #cccccc;
+   }
+
+img {
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'poppins', sans-serif;
+	font-size: 18px;
+}
+body{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	width: 700px;
+	padding: 30px;
+	border: 1px solid #eeeeee;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+h4{
+	margin-bottom: 10px;
+	font-size: 24px;
+	color: black;
+	text-align: center;
+}
+h5{
+	margin-bottom: 10px;
+	font-size: 24px;
+	color: black;
+	text-align: center;
+}
+
+input{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	
+}
+#submit{
+	border: none;
+	background-color: orangered;
+	color: white;
+	width: 200px;
+	margin-top: 10px;
+	border-radius: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#submit:hover{
+	background-color: #333333;
+}
